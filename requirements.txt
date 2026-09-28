@@ -1,0 +1,13 @@
+# Runtime dependencies — pin exact versions after compatibility check.
+tinkoff-investments>=0.2.0b80
+pandas>=2.0
+numpy>=1.26
+SQLAlchemy>=2.0
+aiogram>=3.4
+smartmoneyconcepts>=0.0.26
+pydantic-settings>=2.0
+PyYAML>=6.0
+
+# Dev / test
+pytest>=8.0
+pytest-asyncio>=0.23

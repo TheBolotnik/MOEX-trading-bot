@@ -1,0 +1,45 @@
+# Strategy parameters — Dynamic Swing Momentum
+# Do not hardcode these values in business logic.
+
+strategy_version: "0.1.0-skeleton"
+capital: 100000
+
+risk:
+  min_percent: 1.0
+  max_percent: 1.5
+
+portfolio:
+  min_positions: 5
+  max_positions: 7
+  max_position_percent: 25
+  max_sector_percent: 50
+  cash_base_min_percent: 10
+  cash_base_max_percent: 20
+
+market_regime:
+  bull_exposure_min: 70
+  bull_exposure_max: 100
+  neutral_exposure_min: 40
+  neutral_exposure_max: 70
+  bear_exposure_min: 0
+  bear_exposure_max: 40
+
+profit:
+  partial_1_min: 8
+  partial_1_max: 12
+  partial_2_min: 15
+  partial_2_max: 25
+
+smc:
+  swing_length: 50
+  close_break: true
+
+timeframes:
+  trend: D1
+  structure: H4
+  entry: H1
+
+entry:
+  initial_portion_min: 0.30
+  initial_portion_max: 0.40
+  add_portion: 0.30
