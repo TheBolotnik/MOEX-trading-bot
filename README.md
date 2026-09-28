@@ -1,1 +1,0 @@
-# MOEX-trading-bot
